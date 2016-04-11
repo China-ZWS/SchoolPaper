@@ -1,0 +1,29 @@
+//
+//  SchoolPaper-Prefix.pch
+//  SchoolPaper
+//
+//  Created by 周文松 on 15/9/23.
+//  Copyright (c) 2015年 TalkWeb. All rights reserved.
+//
+
+#ifndef SchoolPaper_SchoolPaper_Prefix_pch
+#define SchoolPaper_SchoolPaper_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifdef __OBJC__
+#import "ToolSingleton.h"
+#import "Device.h"
+#import "Category.h"
+#import "Header.h"
+#import "MBProgressHUD+Add.h"
+#import "MJChiBaoZiHeader.h"
+#import "MJChiBaoZiFooter.h"
+#import "Infomation.h"
+#import "BaseModel.h"
+#import "String.h"
+#import "UIButton+WebCache.h"
+#import "UIImageView+WebCache.h"
+#endif
+
+#endif
